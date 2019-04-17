@@ -1,0 +1,15 @@
+current directory: /Users/yanasinn/Desktop/chat_sample/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.3/ext/bootsnap
+/Users/yanasinn/.rbenv/versions/2.5.0/bin/ruby -r ./siteconf20190415-21785-1fvy3ik.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yanasinn/Desktop/chat_sample/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.3/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/yanasinn/Desktop/chat_sample/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.3/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/yanasinn/Desktop/chat_sample/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.3/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20190415-21785-l30xfw/bootsnap
