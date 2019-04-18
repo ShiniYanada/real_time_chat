@@ -1,4 +1,11 @@
 <h1>部屋一覧</h1>
+<div class="row">
+    <%= search_form_for @search do |f| %>
+        <%= f.label :name_cont, '部屋を検索' %>
+        <%= f.search_field :name_cont, class: 'input-field' %>
+        <%= f.submit "検索", class: 'waves-effect waves-light btn' %>
+    <% end %>
+</div>
 
 
 <ul class="collection">
